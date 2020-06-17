@@ -23,13 +23,21 @@ body {
 		border: none;
 	}
 	&-bg-custom {
-		transition: box-shadow 0.3s ease-out;
 		backface-visibility: hidden;
 		background-color: rgb(255, 255, 255);
 		border-bottom: 0.7px solid rgba(92, 92, 92, 0.096);
 		&-scrolled {
-			box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
-				0 2px 6px 2px rgba(60, 64, 67, 0.149);
+			backface-visibility: hidden;
+			transition: opacity 0.5s ease-out;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -4;
+			opacity: 0;
+			box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.185),
+				0 2px 6px 2px rgba(42, 42, 43, 0.149);
 			border-bottom: 0px;
 		}
 	}

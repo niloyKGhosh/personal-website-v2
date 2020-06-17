@@ -1,8 +1,11 @@
 const nav = document.querySelector(".navbar");
+const scrolled = document.querySelector(".navbar-bg-custom-scrolled");
 window.addEventListener("scroll", () => {
-	if (window.scrollY > nav.offsetHeight) {
-		nav.classList.add("navbar-bg-custom-scrolled");
+	if (window.pageYOffset > 0) {
+		scrolled.style.opacity = 1;
+		nav.style.borderBottom = "0px";
 	} else {
-		nav.classList.remove("navbar-bg-custom-scrolled");
+		scrolled.style.opacity = 0;
+		nav.style.borderBottom = `1px solid rgba(92, 92, 92, 0.096)`;
 	}
 });
