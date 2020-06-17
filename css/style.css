@@ -1,31 +1,30 @@
 *,
 *::after,
 *::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 body {
-	padding: 50px 0px 0px 0px;
-	z-index: 0;
-	font-family: "Poppins", sans-serif;
-	font-weight: 400;
-}
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; }
+
+.navbar--semi-bold {
+  font-weight: 600; }
+
 .navbar-light .navbar-toggler-icon {
-	color: #000;
-}
+  color: #000; }
+
 .navbar-light .navbar-toggler {
-	border: none;
-}
+  border: none; }
 
-.bg-custom {
-	transition: box-shadow 0.38s ease-out;
-	background-color: rgb(255, 255, 255);
-	border-bottom: 0.7px solid rgba(92, 92, 92, 0.096);
-}
-
-.bg-custom-scrolled {
-	box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
-		0 2px 6px 2px rgba(60, 64, 67, 0.149);
-	border-bottom: 0px;
-}
+.navbar-bg-custom {
+  transition: box-shadow 0.3s ease-out;
+  backface-visibility: hidden;
+  background-color: white;
+  border-bottom: 0.7px solid rgba(92, 92, 92, 0.096); }
+  .navbar-bg-custom-scrolled {
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    border-bottom: 0px; }
