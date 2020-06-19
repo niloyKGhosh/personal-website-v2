@@ -13,7 +13,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400; }
 
-.navbar--semi-bold {
+.navbar__semi-bold {
   font-weight: 600; }
 
 .navbar-light .navbar-toggler-icon {
@@ -22,11 +22,11 @@ body {
 .navbar-light .navbar-toggler {
   border: none; }
 
-.navbar-bg-custom {
+.navbar__bg-custom {
   backface-visibility: hidden;
   background-color: #fff;
   border-bottom: 0.7px solid rgba(92, 92, 92, 0.096); }
-  .navbar-bg-custom-scrolled {
+  .navbar__bg-custom-scrolled {
     backface-visibility: hidden;
     transition: opacity 0.5s ease-out;
     height: 100%;
