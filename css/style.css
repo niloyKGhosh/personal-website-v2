@@ -16,28 +16,68 @@ body {
 .navbar__semi-bold {
   font-weight: 600; }
 
-.navbar-light .navbar-toggler-icon {
-  color: #000; }
-
-.navbar-light .navbar-toggler {
-  border: none; }
-
-.navbar__bg-custom {
-  backface-visibility: hidden;
-  background-color: #fff;
-  border-bottom: 0.7px solid rgba(92, 92, 92, 0.096); }
-  .navbar__bg-custom-scrolled {
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px; }
+  .navbar-light .navbar-toggler-icon {
+    color: #000; }
+  .navbar-light .navbar-toggler {
+    border: none; }
+  .navbar__bg-custom {
     backface-visibility: hidden;
-    transition: opacity 0.5s ease-out;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -4;
-    opacity: 0;
-    box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.185), 0 2px 6px 2px rgba(42, 42, 43, 0.149);
-    border-bottom: 0px; }
+    background-color: #fff;
+    border-bottom: 0.7px solid rgba(92, 92, 92, 0.096); }
+    .navbar__bg-custom-scrolled {
+      backface-visibility: hidden;
+      transition: opacity 0.5s ease-out;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -4;
+      opacity: 0;
+      box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.185), 0 2px 6px 2px rgba(42, 42, 43, 0.149);
+      border-bottom: 0px; }
 
 h1 {
   color: #fa5b5b; }
+
+.landing-page {
+  min-height: 93.45vh;
+  line-height: 1.38;
+  color: #2f3640; }
+
+p {
+  margin-bottom: 0; }
+
+.landing-page__hello {
+  color: #fa5b5b;
+  font-size: 30px;
+  font-weight: 600; }
+
+.landing-page__intro {
+  font-size: 5rem;
+  font-weight: 600; }
+
+.landing-page__description {
+  font-size: 35px; }
+
+.self-photo {
+  border: 2px solid #3568; }
+  .self-photo-img-container {
+    display: inline-block;
+    position: relative; }
+  .self-photo-border-container {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 47px;
+    left: 50px; }
+  .self-photo-img {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    opacity: 1; }

@@ -13,3 +13,60 @@
 h1 {
 	color: $color-primary;
 }
+
+.landing-page {
+	min-height: 93.45vh;
+	line-height: 1.38;
+	color: $color-black-light;
+}
+
+p {
+	margin-bottom: 0;
+}
+.landing-page__hello {
+	color: $color-primary;
+	font-size: 30px;
+	font-weight: $semi-bold;
+}
+
+.landing-page__intro {
+	font-size: 5rem;
+	font-weight: $semi-bold;
+}
+
+.landing-page__description {
+	font-size: 35px;
+}
+
+.self-photo {
+	border: 2px solid #3568;
+
+	&-img-container {
+		display: inline-block;
+		position: relative;
+	}
+
+	&-border-container {
+		display: inline-block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 47px;
+		left: 50px;
+	}
+
+	// &-img-container {
+	// 	display: none;
+	// }
+	&-img {
+		width: 280px;
+		height: 280px;
+		// background-color: green;
+		padding: 20px;
+		opacity: 1;
+	}
+	&-border {
+		// background-color: #000;
+		// opacity: 1;
+	}
+}
