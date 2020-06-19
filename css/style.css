@@ -7,7 +7,9 @@
 
 body {
   padding: 57px 0px 0px 0px;
-  z-index: 0;
+  z-index: 0; }
+
+body {
   font-family: "Poppins", sans-serif;
   font-weight: 400; }
 
@@ -22,7 +24,7 @@ body {
 
 .navbar-bg-custom {
   backface-visibility: hidden;
-  background-color: white;
+  background-color: #fff;
   border-bottom: 0.7px solid rgba(92, 92, 92, 0.096); }
   .navbar-bg-custom-scrolled {
     backface-visibility: hidden;
@@ -39,8 +41,3 @@ body {
 
 h1 {
   color: #fa5b5b; }
-
-.self-photo {
-  width: 300px;
-  height: 300px;
-  padding: 20px; }

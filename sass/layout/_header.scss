@@ -1,0 +1,27 @@
+.navbar {
+	&-light &-toggler-icon {
+		color: $color-black;
+	}
+	&-light &-toggler {
+		border: none;
+	}
+	&-bg-custom {
+		backface-visibility: hidden;
+		background-color: $color-white;
+		border-bottom: 0.7px solid rgba($nav-border-bottom-color, 0.096);
+		&-scrolled {
+			backface-visibility: hidden;
+			transition: opacity 0.5s ease-out;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -4;
+			opacity: 0;
+			box-shadow: 0 1px 1px 0 rgba($nav-box-shadow-color-1, 0.185),
+				0 2px 6px 2px rgba($nav-box-shadow-color-2, 0.149);
+			border-bottom: 0px;
+		}
+	}
+}
