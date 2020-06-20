@@ -1,23 +1,24 @@
 window.addEventListener("DOMContentLoaded", (e) => {
-	const anim = anime.timeline({
+	const animation = anime.timeline({
 		loop: false,
 		direction: "forwards",
 	});
 
-	anim.add({
-		targets: ".landing-page",
-		opacity: 1,
-		easing: "easeInQuart",
-		duration: 1400,
-	})
+	animation
 		.add({
-			targets: "#hexagon",
+			targets: ".landing-page",
+			opacity: 1,
+			easing: "easeInQuart",
+			duration: 1400,
+		})
+		.add({
+			targets: "#border-anim",
 			opacity: 1,
 			easing: "easeInQuart",
 			duration: 200,
 		})
 		.add({
-			targets: "#hexagon",
+			targets: "#border-anim",
 
 			strokeDashoffset: [anime.setDashoffset, 0],
 			easing: "linear",
