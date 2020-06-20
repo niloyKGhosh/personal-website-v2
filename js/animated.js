@@ -7,13 +7,13 @@ window.addEventListener("DOMContentLoaded", (e) => {
 	anim.add({
 		targets: ".landing-page",
 		opacity: 1,
-		easing: "easeInQuad",
-		duration: 1500,
+		easing: "easeInQuart",
+		duration: 1400,
 	})
 		.add({
 			targets: "#hexagon",
 			opacity: 1,
-			easing: "easeInQuad",
+			easing: "easeInQuart",
 			duration: 200,
 		})
 		.add({
