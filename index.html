@@ -75,8 +75,8 @@
 
 		<main>
 			<section>
-				<div class="container">
-					<div class="row align-items-center landing-page">
+				<div class="container landing-page">
+					<div class="row flex-row-reverse landing-page__content">
 						<div class="col-12 col-md-8 order-2 order-md-1 px-5">
 							<p>
 								<span class="landing-page__hello"
@@ -96,12 +96,21 @@
 									Canada.
 								</span>
 							</p>
-							<button class="btn btn-lg btn-primary">
-								Resume
-							</button>
+							<div class="row landing-page__btns">
+								<div class="col-sm-4 col-md-4">
+									<button class="btn btn-lg btn-primary">
+										Resume
+									</button>
+								</div>
+								<div class="col-sm-4 col-md-4">
+									<button class="btn btn-lg btn-primary">
+										Resume
+									</button>
+								</div>
+							</div>
 						</div>
 						<div class="col-12 col-md-4 order-1 order-md-2">
-							<div class="self-photo text-center">
+							<div class="self-photo">
 								<div class="self-photo-img-container">
 									<img
 										src="./img/self-photo.png"
@@ -191,6 +200,12 @@
 			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 			crossorigin="anonymous"
 		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"
+			integrity="sha256-hBMojZuWKocCflyaG8T19KBq9OlTlK39CTxb8AUWKhY="
+			crossorigin="anonymous"
+		></script>
+		<script src="./js/animated.js"></script>
 		<script src="./js/index.js"></script>
 	</body>
 </html>
