@@ -38,6 +38,8 @@ body {
 .social-icons {
   margin-top: 32px;
   margin-bottom: 32px; }
+  .social-icons-label {
+    color: #2f3640; }
 
 .navbar-light .navbar-toggler-icon {
   color: #000; }

@@ -24,4 +24,7 @@
 .social-icons {
 	margin-top: 32px;
 	margin-bottom: 32px;
+	&-label {
+		color: $color-black-light;
+	}
 }
