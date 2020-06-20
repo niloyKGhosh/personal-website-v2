@@ -1,5 +1,27 @@
 .btn {
-	width: 10rem;
+	width: 12rem;
 	height: 3rem;
 	margin-top: 2rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+
+	&-resume {
+		background-color: $color-primary;
+		border: none;
+
+		&:hover {
+			background-color: #f55858;
+		}
+	}
+
+	&-more-about-me {
+		background-color: transparent;
+		color: inherit;
+		border: 1.5px solid #1d2124;
+	}
+}
+
+.social-icons {
+	margin-top: 32px;
+	margin-bottom: 32px;
 }

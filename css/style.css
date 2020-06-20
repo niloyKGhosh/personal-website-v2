@@ -20,9 +20,24 @@ body {
   font-weight: 600; }
 
 .btn {
-  width: 10rem;
+  width: 12rem;
   height: 3rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem; }
+  .btn-resume {
+    background-color: #fa5b5b;
+    border: none; }
+    .btn-resume:hover {
+      background-color: #f55858; }
+  .btn-more-about-me {
+    background-color: transparent;
+    color: inherit;
+    border: 1.5px solid #1d2124; }
+
+.social-icons {
+  margin-top: 32px;
+  margin-bottom: 32px; }
 
 .navbar {
   padding-top: 20px;
