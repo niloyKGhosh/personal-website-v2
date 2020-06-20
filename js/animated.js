@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
 		targets: ".landing-page",
 		opacity: 1,
 		easing: "easeInQuad",
-		duration: 1800,
+		duration: 1500,
 	})
 		.add({
 			targets: "#hexagon",
