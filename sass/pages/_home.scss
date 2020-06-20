@@ -1,0 +1,49 @@
+.landing-page {
+	opacity: 0;
+	&__content {
+		padding-top: 150px;
+		padding-bottom: 150px;
+		min-height: 91.35vh;
+		line-height: 1.38;
+		color: $color-black-light;
+	}
+	&__hello {
+		color: $color-primary;
+		font-size: 30px;
+		font-weight: $semi-bold;
+	}
+	&__intro {
+		font-size: 5rem;
+		font-weight: $semi-bold;
+	}
+	&__description {
+		font-size: 35px;
+	}
+}
+
+.self-photo {
+	&-img-container {
+		display: inline-block;
+		position: relative;
+	}
+
+	&-border-container {
+		display: inline-block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 43px;
+		left: 46px;
+	}
+
+	&-img {
+		width: 260px;
+		height: 260px;
+		padding: 20px;
+		// opacity: 0;
+	}
+}
+
+#hexagon {
+	opacity: 0;
+}

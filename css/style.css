@@ -9,12 +9,20 @@ body {
   padding: 84px 0px 0px 0px;
   z-index: 0; }
 
+p {
+  margin-bottom: 0; }
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400; }
 
 .navbar__semi-bold {
   font-weight: 600; }
+
+.btn {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem; }
 
 .navbar {
   padding-top: 20px;
@@ -41,33 +49,23 @@ body {
       box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.185), 0 2px 6px 2px rgba(42, 42, 43, 0.149);
       border-bottom: 0px; }
 
-h1 {
-  color: #fa5b5b; }
-
-.landing-page__content {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  min-height: 91.35vh;
-  line-height: 1.38;
-  color: #2f3640; }
-
 .landing-page {
   opacity: 0; }
-
-p {
-  margin-bottom: 0; }
-
-.landing-page__hello {
-  color: #fa5b5b;
-  font-size: 30px;
-  font-weight: 600; }
-
-.landing-page__intro {
-  font-size: 5rem;
-  font-weight: 600; }
-
-.landing-page__description {
-  font-size: 35px; }
+  .landing-page__content {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    min-height: 91.35vh;
+    line-height: 1.38;
+    color: #2f3640; }
+  .landing-page__hello {
+    color: #fa5b5b;
+    font-size: 30px;
+    font-weight: 600; }
+  .landing-page__intro {
+    font-size: 5rem;
+    font-weight: 600; }
+  .landing-page__description {
+    font-size: 35px; }
 
 .self-photo-img-container {
   display: inline-block;
@@ -89,7 +87,5 @@ p {
 #hexagon {
   opacity: 0; }
 
-.btn {
-  width: 10rem;
-  height: 3rem;
-  margin-top: 2rem; }
+h1 {
+  color: #fa5b5b; }
