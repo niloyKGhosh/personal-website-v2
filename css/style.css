@@ -52,8 +52,6 @@ body {
 .landing-page {
   opacity: 0; }
   .landing-page__content {
-    padding-top: 60px;
-    padding-bottom: 60px;
     min-height: 91.35vh;
     line-height: 1.38;
     color: #2f3640; }
