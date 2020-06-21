@@ -118,17 +118,15 @@ body {
   .fas,
   .fab {
     font-size: 25px; }
-  .landing-page {
-    opacity: 0; }
-    .landing-page__hello {
-      color: #fa5b5b;
-      font-size: 20px;
-      font-weight: 600; }
-    .landing-page__intro {
-      font-size: 36px;
-      font-weight: 600; }
-    .landing-page__description {
-      font-size: 20px; } }
+  .landing-page__hello {
+    color: #fa5b5b;
+    font-size: 20px;
+    font-weight: 600; }
+  .landing-page__intro {
+    font-size: 36px;
+    font-weight: 600; }
+  .landing-page__description {
+    font-size: 20px; } }
 
 h1 {
   color: #fa5b5b; }
