@@ -1,4 +1,8 @@
-window.addEventListener("DOMContentLoaded", (e) => {
+$(function () {
+	$(".spinner-overlay").fadeOut(1800, loaded);
+});
+
+function loaded() {
 	const animation = anime.timeline({
 		loop: false,
 		direction: "forwards",
@@ -6,10 +10,10 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
 	animation
 		.add({
-			targets: ".landing-page",
+			targets: ".loaded-page",
 			opacity: 1,
-			easing: "easeInQuart",
-			duration: 1400,
+			easing: "easeInOutQuart",
+			duration: 1100,
 		})
 		.add({
 			targets: "#border-anim",
@@ -27,4 +31,4 @@ window.addEventListener("DOMContentLoaded", (e) => {
 				return i * 800;
 			},
 		});
-});
+}

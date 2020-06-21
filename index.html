@@ -12,9 +12,9 @@
 			rel="stylesheet"
 		/>
 		<link
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 			crossorigin="anonymous"
 		/>
 		<script
@@ -26,63 +26,77 @@
 		<title>Niloy Ghosh</title>
 	</head>
 	<body>
-		<header>
-			<nav
-				class="navbar navbar-light navbar-expand-sm navbar__bg-custom fixed-top"
+		<div class="spinner-overlay">
+			<div
+				class="spinner-grow"
+				style="width: 5rem; height: 5rem; color: #fa5b5b;"
+				role="status"
 			>
-				<div class="container">
-					<a href="/" class="navbar-brand navbar__semi-bold"
-						>Niloy K. Ghosh</a
-					>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-toggle="collapse"
-						data-target="#navigation-content"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
+				<span class="sr-only">Loading...</span>
+			</div>
+		</div>
 
-					<div
-						class="collapse navbar-collapse"
-						id="navigation-content"
-					>
-						<ul class="navbar-nav ml-auto text-center">
-							<li class="nav-item">
-								<a
-									href="#"
-									class="nav-link active navbar__semi-bold"
-									>Home</a
-								>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link navbar__semi-bold"
-									>About</a
-								>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link navbar__semi-bold"
-									>Projects</a
-								>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link navbar__semi-bold"
-									>Contact</a
-								>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="navbar__bg-custom-scrolled"></div>
-			</nav>
-		</header>
-
-		<main>
-			<section>
-				<div
-					class="container landing-page"
-					"
+		<div class="loaded-page">
+			<header>
+				<nav
+					class="navbar navbar-light navbar-expand-sm navbar__bg-custom fixed-top"
 				>
+					<div class="container">
+						<a href="/" class="navbar-brand navbar__semi-bold"
+							>Niloy K. Ghosh</a
+						>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-toggle="collapse"
+							data-target="#navigation-content"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div
+							class="collapse navbar-collapse"
+							id="navigation-content"
+						>
+							<ul class="navbar-nav ml-auto text-center">
+								<li class="nav-item">
+									<a
+										href="#"
+										class="nav-link active navbar__semi-bold"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#"
+										class="nav-link navbar__semi-bold"
+										>About</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#"
+										class="nav-link navbar__semi-bold"
+										>Projects</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#"
+										class="nav-link navbar__semi-bold"
+										>Contact</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="navbar__bg-custom-scrolled"></div>
+				</nav>
+			</header>
+
+			<main>
+				<section>
+					<div class="container landing-page" " >
 					<div
 						class="row justify-content-center align-items-center flex-column landing-page__content"
 					>
@@ -123,18 +137,39 @@
 								class="row text-center justify-content-center social-icons"
 							>
 								<div class="col-3">
-									<a href="mailto:nghosh@uoguelph.ca"><span class="fas fa-envelope fa-2x social-icons-label"></span></a>
+									<a href="mailto:nghosh@uoguelph.ca"
+										><span
+											class="fas fa-envelope fa-2x social-icons-label"
+										></span
+									></a>
 								</div>
 								<div class="col-3">
-                                    <a href="https://www.linkedin.com/in/niloyghosh/" target="_blank"><span class="fab fa-linkedin fa-2x social-icons-label"></span></a>
+									<a
+										href="https://www.linkedin.com/in/niloyghosh/"
+										target="_blank"
+										><span
+											class="fab fa-linkedin fa-2x social-icons-label"
+										></span
+									></a>
 								</div>
 								<div class="col-3">
-                                    <a href="https://www.instagram.com/_niloy14_/" target="_blank"><span class="fab fa-instagram fa-2x social-icons-label"></span></a>
+									<a
+										href="https://www.instagram.com/_niloy14_/"
+										target="_blank"
+										><span
+											class="fab fa-instagram fa-2x social-icons-label"
+										></span
+									></a>
 								</div>
-									
+
 								<div class="col-3">
-                                    <a href="https://github.com/niloyKGhosh" target="_blank"><span class="fab fa-github fa-2x social-icons-label"></span></a>
-									
+									<a
+										href="https://github.com/niloyKGhosh"
+										target="_blank"
+										><span
+											class="fab fa-github fa-2x social-icons-label"
+										></span
+									></a>
 								</div>
 							</div>
 						</div>
@@ -178,47 +213,45 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-		</main>
-
-		<div class="container">
-			<h1>Hello</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
-			<h1>Hi</h1>
+				</section>
+			</main>
+			<div class="container">
+				<h1>Hello</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+				<h1>Hi</h1>
+			</div>
 		</div>
-
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.min.js"
 			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -229,10 +262,9 @@
 			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
 			crossorigin="anonymous"
 		></script>
-
 		<script
-			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 			crossorigin="anonymous"
 		></script>
 		<script
@@ -240,7 +272,6 @@
 			integrity="sha256-hBMojZuWKocCflyaG8T19KBq9OlTlK39CTxb8AUWKhY="
 			crossorigin="anonymous"
 		></script>
-
 		<script src="./js/animated.js"></script>
 		<script src="./js/index.js"></script>
 	</body>
