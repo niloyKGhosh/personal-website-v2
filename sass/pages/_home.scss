@@ -13,7 +13,7 @@
 		font-weight: $semi-bold;
 	}
 	&__intro {
-		font-size: 60px;
+		font-size: 52px;
 		font-weight: $semi-bold;
 	}
 	&__description {
@@ -46,4 +46,43 @@
 
 #border-anim {
 	opacity: 0;
+}
+
+@media (max-width: 767.98px) {
+	.self-photo {
+		&-border-container {
+			width: 92%;
+			height: 92%;
+			top: 39px;
+			left: 41px;
+		}
+
+		&-img {
+			width: 200px;
+			height: 200px;
+			padding: 25px;
+			// opacity: 0;
+		}
+	}
+
+	.fas,
+	.fab {
+		font-size: 25px;
+	}
+
+	.landing-page {
+		opacity: 0;
+		&__hello {
+			color: $color-primary;
+			font-size: 20px;
+			font-weight: $semi-bold;
+		}
+		&__intro {
+			font-size: 36px;
+			font-weight: $semi-bold;
+		}
+		&__description {
+			font-size: 20px;
+		}
+	}
 }
