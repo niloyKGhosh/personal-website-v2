@@ -21,6 +21,10 @@ body {
 .navbar__semi-bold {
   font-weight: 600; }
 
+.section-padding {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
 .spinner-overlay {
   position: absolute;
   z-index: 9999;

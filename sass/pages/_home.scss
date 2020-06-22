@@ -2,8 +2,8 @@
 	&__content {
 		min-height: 100vh;
 		line-height: 1.4;
-		padding-top: 70px;
-		padding-bottom: 70px;
+		padding-top: $section-padding-top;
+		padding-bottom: $section-padding-bottom;
 		color: $color-black-light;
 	}
 	&__hello {
