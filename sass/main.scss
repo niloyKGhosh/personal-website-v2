@@ -3,6 +3,7 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/spinner";
 @import "components/button";
 
 @import "layout/header";
@@ -11,16 +12,4 @@
 
 h1 {
 	color: $color-primary;
-}
-
-.spinner-overlay {
-	position: absolute;
-	z-index: 9999;
-	background-color: rgb(255, 249, 249);
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
 }
