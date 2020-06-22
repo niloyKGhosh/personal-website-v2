@@ -2,3 +2,18 @@
 	padding-top: $section-padding-top;
 	padding-bottom: $section-padding-bottom;
 }
+
+.title-border h1 {
+	position: relative;
+	&::after {
+		content: "";
+		position: absolute;
+		background-color: $color-primary;
+		height: 2px;
+		width: 3rem;
+		top: 125%;
+		left: 50%;
+		transform: translateX(-50%);
+		display: block;
+	}
+}
