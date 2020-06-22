@@ -10,6 +10,17 @@
 
 @import "pages/home";
 
-// h1 {
-// 	color: $color-primary;
-// }
+.title-border h1 {
+	position: relative;
+}
+.title-border h1::after {
+	content: "";
+	position: absolute;
+	background-color: #333;
+	height: 2px;
+	width: 3rem;
+	top: 125%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: block;
+}
