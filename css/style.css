@@ -55,11 +55,10 @@ body {
   margin-top: 1.5rem;
   margin-right: 2rem;
   margin-left: 2rem; }
+  .btn-danger {
+    border-color: transparent; }
   .btn-resume {
-    background-color: #fa5b5b;
-    border: none; }
-    .btn-resume:hover {
-      background-color: #f55858; }
+    background-color: #fa5b5b; }
   .btn-more-about-me {
     background-color: transparent;
     color: inherit;

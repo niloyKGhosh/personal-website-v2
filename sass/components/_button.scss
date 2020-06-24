@@ -5,13 +5,11 @@
 	margin-right: 2rem;
 	margin-left: 2rem;
 
+	&-danger {
+		border-color: transparent;
+	}
 	&-resume {
 		background-color: $color-primary;
-		border: none;
-
-		&:hover {
-			background-color: #f55858;
-		}
 	}
 
 	&-more-about-me {
