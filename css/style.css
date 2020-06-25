@@ -79,7 +79,7 @@ body {
 .navbar__bg-custom {
   backface-visibility: hidden;
   background-color: #fff;
-  border-bottom: 0.7px solid rgba(92, 92, 92, 0.096); }
+  border-bottom: 0.7px solid rgba(71, 71, 71, 0.096); }
   .navbar__bg-custom-scrolled {
     backface-visibility: hidden;
     transition: opacity 0.5s ease-out;
@@ -131,6 +131,24 @@ body {
 
 #border-anim {
   opacity: 0; }
+
+.about-subsection-h5 {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #383838; }
+  .about-subsection-h5 span {
+    border-bottom: 1px solid #fa5b5b; }
+
+.about-subsection-head {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #888;
+  font-size: 0.975rem;
+  margin-bottom: 0; }
+
+.about-subsection-description {
+  font-weight: 400;
+  font-size: 1.45rem; }
 
 @media (max-width: 767.98px) {
   .self-photo-border-container {

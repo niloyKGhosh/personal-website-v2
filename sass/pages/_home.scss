@@ -47,6 +47,35 @@
 	opacity: 0;
 }
 
+.about {
+	// &-profile {
+	// 	height: 22rem;
+	// }
+	&-subsection {
+		&-h5 {
+			// text-transform: uppercase;
+			margin-bottom: 2rem;
+			font-weight: $semi-bold;
+			color: rgb(56, 56, 56);
+			& span {
+				border-bottom: 1px solid $color-primary;
+			}
+		}
+		&-head {
+			text-transform: uppercase;
+			font-weight: $normal;
+			color: #888;
+			font-size: 0.975rem;
+			margin-bottom: 0;
+		}
+
+		&-description {
+			font-weight: $normal;
+			font-size: 1.45rem;
+		}
+	}
+}
+
 @media (max-width: 767.98px) {
 	.self-photo {
 		&-border-container {
