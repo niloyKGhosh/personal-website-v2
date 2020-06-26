@@ -172,3 +172,6 @@ body {
     font-weight: 600; }
   .landing-page__description {
     font-size: 20px; } }
+
+.fas {
+  padding-right: 10px; }
