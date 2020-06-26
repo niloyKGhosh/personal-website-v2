@@ -70,6 +70,9 @@ body {
   .social-icons-label {
     color: #2f3640; }
 
+.fas {
+  padding-right: 10px; }
+
 .navbar-light .navbar-toggler-icon {
   color: #000; }
 
@@ -172,6 +175,3 @@ body {
     font-weight: 600; }
   .landing-page__description {
     font-size: 20px; } }
-
-.fas {
-  padding-right: 10px; }
