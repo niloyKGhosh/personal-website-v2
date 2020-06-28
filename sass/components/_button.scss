@@ -1,9 +1,11 @@
 .btn {
-	width: 12rem;
-	height: 3rem;
-	margin-top: 1.5rem;
-	margin-right: 2rem;
-	margin-left: 2rem;
+	&-custom {
+		width: 12rem;
+		height: 3rem;
+		margin-top: 1.5rem;
+		margin-right: 2rem;
+		margin-left: 2rem;
+	}
 
 	&-danger {
 		border-color: transparent;

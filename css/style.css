@@ -49,20 +49,23 @@ body {
   flex-direction: column;
   align-items: center; }
 
-.btn {
+.btn-custom {
   width: 12rem;
   height: 3rem;
   margin-top: 1.5rem;
   margin-right: 2rem;
   margin-left: 2rem; }
-  .btn-danger {
-    border-color: transparent; }
-  .btn-resume {
-    background-color: #fa5b5b; }
-  .btn-more-about-me {
-    background-color: transparent;
-    color: inherit;
-    border: 1.5px solid #1d2124; }
+
+.btn-danger {
+  border-color: transparent; }
+
+.btn-resume {
+  background-color: #fa5b5b; }
+
+.btn-more-about-me {
+  background-color: transparent;
+  color: inherit;
+  border: 1.5px solid #1d2124; }
 
 .social-icons {
   margin-top: 32px;
