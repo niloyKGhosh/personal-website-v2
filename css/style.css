@@ -191,8 +191,11 @@ body {
   .project-card--text, .project-card--built-with--text {
     color: #888;
     font-size: 0.9rem; }
-  .project-card--built-with--text {
-    font-weight: 600; }
+  .project-card--built-with {
+    position: absolute;
+    bottom: 5%; }
+    .project-card--built-with--text {
+      font-weight: 600; }
   .project-card--github, .project-card--live {
     transition: color 0.2s ease-in;
     font-size: 18px;

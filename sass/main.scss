@@ -26,21 +26,10 @@
 		font-size: 0.9rem;
 	}
 
-	// &--built-with--text {
-	// 	position: relative;
-	// }
-	// &--built-with--text::after {
-	// 	content: "";
-	// 	display: inline-block;
-	// 	height: 0.5px;
-	// 	width: 75%;
-	// 	background-color: rgba(136, 136, 136, 0.274);
-	// 	position: absolute;
-	// 	top: 50%;
-	// 	left: 60%;
-	// 	transform: translate(-50%, -43%);
-	// }
 	&--built-with {
+		position: absolute;
+		bottom: 5%;
+
 		&--text {
 			font-weight: $semi-bold;
 		}
