@@ -178,3 +178,28 @@ body {
     font-weight: 600; }
   .landing-page__description {
     font-size: 20px; } }
+
+.project-card {
+  min-height: 450px;
+  background-color: #f7f9fa;
+  border: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .project-card--title {
+    font-weight: 600;
+    color: #2f3640;
+    margin-bottom: 0; }
+  .project-card--text, .project-card--built-with--text {
+    color: #888;
+    font-size: 0.9rem; }
+  .project-card--built-with--text {
+    font-weight: 600; }
+  .project-card--github, .project-card--live {
+    transition: color 0.2s ease-in;
+    font-size: 18px;
+    cursor: pointer; }
+  .project-card--github:hover {
+    color: #10ac84;
+    text-decoration: none; }
+  .project-card--live:hover {
+    color: #fa5b5b;
+    text-decoration: none; }
