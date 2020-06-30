@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
 	const nav = document.querySelector(".navbar");
 	const scrolled = document.querySelector(".navbar__bg-custom-scrolled");
 	const footerYear = document.querySelector(".page-footer--year");
