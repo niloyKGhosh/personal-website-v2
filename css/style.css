@@ -225,3 +225,10 @@ body {
     font-weight: 600; }
   .landing-page__description {
     font-size: 20px; } }
+
+.page-footer {
+  background-color: #2f3640;
+  min-height: 100px;
+  color: #fff; }
+  .page-footer--body {
+    padding: 50px 0; }
