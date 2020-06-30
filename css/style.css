@@ -156,29 +156,6 @@ body {
   font-weight: 400;
   font-size: 1.45rem; }
 
-@media (max-width: 767.98px) {
-  .self-photo-border-container {
-    width: 92%;
-    height: 92%;
-    top: 39px;
-    left: 41px; }
-  .self-photo-img {
-    width: 200px;
-    height: 200px;
-    padding: 25px; }
-  .fas,
-  .fab {
-    font-size: 25px; }
-  .landing-page__hello {
-    color: #fa5b5b;
-    font-size: 20px;
-    font-weight: 600; }
-  .landing-page__intro {
-    font-size: 36px;
-    font-weight: 600; }
-  .landing-page__description {
-    font-size: 20px; } }
-
 .project-card {
   min-height: 450px;
   background-color: #f7f9fa;
@@ -206,3 +183,45 @@ body {
   .project-card--live:hover {
     color: #fa5b5b;
     text-decoration: none; }
+
+.contact {
+  min-height: 70vh; }
+  .contact-body {
+    min-height: 60vh; }
+  .contact-email {
+    padding-right: 0; }
+  .contact-underline {
+    height: 2px;
+    width: 3rem;
+    background: #fa5b5b;
+    display: block;
+    margin: 0.5rem auto 1rem auto; }
+  .contact-icons {
+    color: #2f3640;
+    font-weight: 600; }
+  .contact-icons:hover {
+    text-decoration: none;
+    color: #888; }
+
+@media (max-width: 767.98px) {
+  .self-photo-border-container {
+    width: 92%;
+    height: 92%;
+    top: 39px;
+    left: 41px; }
+  .self-photo-img {
+    width: 200px;
+    height: 200px;
+    padding: 25px; }
+  .fas,
+  .fab {
+    font-size: 25px; }
+  .landing-page__hello {
+    color: #fa5b5b;
+    font-size: 20px;
+    font-weight: 600; }
+  .landing-page__intro {
+    font-size: 36px;
+    font-weight: 600; }
+  .landing-page__description {
+    font-size: 20px; } }

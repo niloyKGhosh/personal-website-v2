@@ -73,6 +73,72 @@
 	}
 }
 
+.project-card {
+	min-height: 450px;
+	background-color: #f7f9fa;
+	border: none;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	&--title {
+		font-weight: $semi-bold;
+		color: $color-black-light;
+		margin-bottom: 0;
+	}
+	&--text,
+	&--built-with--text {
+		color: #888;
+		font-size: 0.9rem;
+	}
+
+	&--built-with {
+		position: absolute;
+		bottom: 5%;
+
+		&--text {
+			font-weight: $semi-bold;
+		}
+	}
+
+	&--github,
+	&--live {
+		transition: color 0.2s ease-in;
+		font-size: 18px;
+		cursor: pointer;
+	}
+	&--github:hover {
+		color: #10ac84;
+		text-decoration: none;
+	}
+	&--live:hover {
+		color: $color-primary;
+		text-decoration: none;
+	}
+}
+
+.contact {
+	min-height: 70vh;
+	&-body {
+		min-height: 60vh;
+	}
+	&-email {
+		padding-right: 0;
+	}
+	&-underline {
+		height: 2px;
+		width: 3rem;
+		background: $color-primary;
+		display: block;
+		margin: 0.5rem auto 1rem auto;
+	}
+	&-icons {
+		color: $color-black-light;
+		font-weight: $semi-bold;
+	}
+	&-icons:hover {
+		text-decoration: none;
+		color: #888;
+	}
+}
+
 @media (max-width: 767.98px) {
 	.self-photo {
 		&-border-container {
