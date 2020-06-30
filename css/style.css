@@ -203,6 +203,15 @@ body {
     text-decoration: none;
     color: #888; }
 
+.page-footer {
+  background-color: #2f3640;
+  min-height: 100px;
+  color: #fff; }
+  .page-footer--body {
+    padding: 50px 0; }
+  .page-footer a {
+    color: #fff; }
+
 @media (max-width: 767.98px) {
   .self-photo-border-container {
     width: 92%;
@@ -225,10 +234,3 @@ body {
     font-weight: 600; }
   .landing-page__description {
     font-size: 20px; } }
-
-.page-footer {
-  background-color: #2f3640;
-  min-height: 100px;
-  color: #fff; }
-  .page-footer--body {
-    padding: 50px 0; }

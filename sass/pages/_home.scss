@@ -139,6 +139,18 @@
 	}
 }
 
+.page-footer {
+	background-color: $color-black-light;
+	min-height: 100px;
+	color: $color-white;
+	&--body {
+		padding: 50px 0;
+	}
+	a {
+		color: #fff;
+	}
+}
+
 @media (max-width: 767.98px) {
 	.self-photo {
 		&-border-container {
