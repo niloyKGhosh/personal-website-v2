@@ -157,6 +157,7 @@ body {
   font-size: 1.45rem; }
 
 .project-card {
+  min-height: 550px;
   background-color: #f7f9fa;
   border: none;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -168,7 +169,9 @@ body {
     color: #888;
     font-size: 0.9rem; }
   .project-card--built-with {
-    margin-top: 20px; }
+    margin-top: 10px;
+    position: absolute;
+    bottom: 5%; }
     .project-card--built-with--text {
       font-weight: 600; }
   .project-card--github, .project-card--live {
@@ -232,3 +235,17 @@ body {
     font-weight: 600; }
   .landing-page__description {
     font-size: 20px; } }
+
+@media (max-width: 575.98px) {
+  .project-card {
+    min-height: 500px; }
+    .project-card--title {
+      font-size: 1.1rem; }
+    .project-card--built-with {
+      position: initial;
+      margin-top: 20px; }
+      .project-card--built-with img {
+        width: 40px;
+        height: 40px; }
+    .project-card--github, .project-card--live {
+      font-size: 1rem; } }
