@@ -157,7 +157,6 @@ body {
   font-size: 1.45rem; }
 
 .project-card {
-  min-height: 450px;
   background-color: #f7f9fa;
   border: none;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -169,8 +168,7 @@ body {
     color: #888;
     font-size: 0.9rem; }
   .project-card--built-with {
-    position: absolute;
-    bottom: 5%; }
+    margin-top: 20px; }
     .project-card--built-with--text {
       font-weight: 600; }
   .project-card--github, .project-card--live {
@@ -185,7 +183,7 @@ body {
     text-decoration: none; }
 
 .contact {
-  min-height: 70vh; }
+  min-height: 85vh; }
   .contact-body {
     min-height: 60vh; }
   .contact-email {
