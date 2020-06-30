@@ -4,7 +4,9 @@ $(function () {
 	const footerYear = document.querySelector(".page-footer--year");
 	const date = new Date();
 	const currentYear = date.getFullYear();
-
+	/**
+	 * Setting footer year
+	 */
 	if (currentYear > 2020) {
 		footerYear.innerHTML = `2020-${currentYear}`;
 	} else {
@@ -19,7 +21,6 @@ $(function () {
 			e.preventDefault();
 			const hash = this.hash;
 
-			console.log(hash, $(hash).offset());
 			$("html, body").animate(
 				{
 					scrollTop: $(hash).offset().top,
@@ -29,10 +30,16 @@ $(function () {
 		}
 	}
 
+	/**
+	 * Adding smooth scroll
+	 */
 	$(".navbar-nav a").on("click", smoothScroll);
 	$(".btn-more-about-me").on("click", smoothScroll);
 
-	window.addEventListener("scroll", () => {
+	$(window).scroll(function () {
+		/**
+		 * Adding navbar shadow
+		 */
 		if (window.pageYOffset > 0) {
 			scrolled.style.opacity = 1;
 			nav.style.borderBottom = "0px";
@@ -40,5 +47,18 @@ $(function () {
 			scrolled.style.opacity = 0;
 			nav.style.borderBottom = `1px solid rgba(92, 92, 92, 0.096)`;
 		}
+		/**
+		 * Adding custom scrollspy
+		 */
+		const scrollLocation = $(this).scrollTop();
+		const links = $(".navbar-nav a");
+		links.each(function () {
+			const heightFromTop = $(this.hash).offset().top;
+			console.log(heightFromTop, scrollLocation);
+			if (heightFromTop - 100 < scrollLocation) {
+				$(this).parent().addClass("active");
+				$(this).parent().siblings().removeClass("active");
+			}
+		});
 	});
 });
