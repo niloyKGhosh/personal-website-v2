@@ -236,9 +236,13 @@ body {
   .landing-page__description {
     font-size: 20px; } }
 
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .project-card {
+    min-height: 450px; } }
+
 @media (max-width: 575.98px) {
   .project-card {
-    min-height: 500px; }
+    min-height: 450px; }
     .project-card--title {
       font-size: 1.1rem; }
     .project-card--built-with {

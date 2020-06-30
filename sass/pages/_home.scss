@@ -189,9 +189,15 @@
 		}
 	}
 }
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+	.project-card {
+		min-height: 450px;
+	}
+}
 @media (max-width: 575.98px) {
 	.project-card {
-		min-height: 500px;
+		min-height: 450px;
 
 		&--title {
 			font-size: 1.1rem;
