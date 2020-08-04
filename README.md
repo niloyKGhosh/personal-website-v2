@@ -1,5 +1,5 @@
-<h1 align="center">Niloy K. Ghosh<h1>
-<div align="center">This is the second iteration of my personal website</div>
+<span align="center">Niloy K. Ghosh</span>
+<span align="center">This is the second iteration of my personal website</span>
 
 
 
