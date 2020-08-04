@@ -44,4 +44,4 @@ SOFTWARE.
 # 🚨 Using this as a template
 
 
-<strong>I love to keep my site open-source. However, if you are using this site as a template, I would very much appreciate if you give me proper credit and attribution by linking back to </strong>[niloy.io](https://niloy.io). ❤️
+<strong>I love to keep my site open-source. However, if you are using this code for your site, I would very much appreciate if you give me proper credit and attribution by linking back to </strong>[repo](https://github.com/niloyKGhosh/personal-website-v2). ❤️
