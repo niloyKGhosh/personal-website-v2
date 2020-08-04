@@ -150,7 +150,7 @@ body {
   font-weight: 400;
   color: #888;
   font-size: 0.975rem;
-  margin-bottom: 0; }
+  margin-bottom: 3px; }
 
 .about-subsection-description {
   font-weight: 400;
@@ -252,4 +252,12 @@ body {
         width: 40px;
         height: 40px; }
     .project-card--github, .project-card--live {
-      font-size: 1rem; } }
+      font-size: 1rem; }
+  .about-subsection-h5 {
+    font-size: 25px; }
+  .about-subsection-head {
+    font-size: 13px; }
+  .about-subsection-description {
+    font-size: 17px; }
+  .title-border h1 {
+    font-size: 36px; } }

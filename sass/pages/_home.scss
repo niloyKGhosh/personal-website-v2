@@ -63,7 +63,7 @@
 			font-weight: $normal;
 			color: #888;
 			font-size: 0.975rem;
-			margin-bottom: 0;
+			margin-bottom: 3px;
 		}
 
 		&-description {
@@ -216,5 +216,19 @@
 		&--live {
 			font-size: 1rem;
 		}
+	}
+	.about-subsection {
+		&-h5 {
+			font-size: 25px;
+		}
+		&-head {
+			font-size: 13px;
+		}
+		&-description {
+			font-size: 17px;
+		}
+	}
+	.title-border h1 {
+		font-size: 36px;
 	}
 }
