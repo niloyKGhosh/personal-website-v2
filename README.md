@@ -9,6 +9,6 @@
 [![Website Link](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/link.svg)](https://niloy.io/)
 </div>
 
-![Image Snapshot](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/link.svg)
+![Image Snapshot](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/my-website-img.png)
 
 # Tech Stack used
