@@ -43,6 +43,5 @@ SOFTWARE.
 
 # 🚨 Using this as a template
 
-<div align="center">
-<strong>I love to keep my site open-source. However, if you are using this site as a template, I would very much appreciate if you give me proper credit and attribution by linking back to [niloy.io](https://niloy.io). ❤️ </strong>
-</div>
+
+<strong>I love to keep my site open-source. However, if you are using this site as a template, I would very much appreciate if you give me proper credit and attribution by linking back to </strong>[niloy.io](https://niloy.io). ❤️
