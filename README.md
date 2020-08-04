@@ -16,7 +16,7 @@
 
 [![HTML5](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-html-5.svg)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)    [![Bootstrap](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-bootstrap.svg)](https://getbootstrap.com/docs/4.1/getting-started/introduction/) [![SASS](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-sass.svg)](https://sass-lang.com/documentation) [![jQuery](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-jquery.svg)](https://api.jquery.com/)
 
-# LICENSE
+# 📙 LICENSE
 ```
 MIT License
 
@@ -40,3 +40,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+# 🚨 Using this as a template
+
+I love to keep my site open-source. However, if you are using this site as a template, I would very much appreciate if you give me proper credit and attribution by linking back to [niloy.io](https://niloy.io). ❤️
