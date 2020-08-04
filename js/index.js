@@ -31,6 +31,12 @@ $(function () {
 	}
 
 	/**
+	 * Adding active class on home during loading
+	 */
+	const links = $(".navbar-nav a");
+	$(links[0]).parent().addClass("active");
+
+	/**
 	 * Adding smooth scroll
 	 */
 	$(".navbar-nav a").on("click", smoothScroll);
@@ -54,10 +60,10 @@ $(function () {
 		const links = $(".navbar-nav a");
 		links.each(function () {
 			const heightFromTop = $(this.hash).offset().top;
-			console.log(heightFromTop, scrollLocation);
-			if (heightFromTop - 100 < scrollLocation) {
-				$(this).parent().addClass("active");
+			// console.log(heightFromTop, scrollLocation);
+			if (heightFromTop - 110 < scrollLocation) {
 				$(this).parent().siblings().removeClass("active");
+				$(this).parent().addClass("active");
 			}
 		});
 	});
