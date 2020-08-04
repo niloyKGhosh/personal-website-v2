@@ -14,4 +14,10 @@
 
 # Tech Stack used
 
-![HTML5](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-html-5.svg)    ![Bootstrap](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-bootstrap.svg)     ![SASS](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-sass.svg)   ![jQuery](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-jquery.svg)
+![HTML5](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-html-5.svg) 
+
+![Bootstrap](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-bootstrap.svg)     
+
+![SASS](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-sass.svg)   
+
+![jQuery](https://github.com/niloyKGhosh/personal-website-v2/blob/master/img/icons/icons8-jquery.svg)
