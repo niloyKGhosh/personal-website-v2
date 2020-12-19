@@ -68,8 +68,8 @@
 
 		&-description {
 			font-weight: $normal;
-			font-size: 1.1rem;
-			font-family: "Roboto", sans-serif;
+			font-size: 1.15rem;
+			font-family: $system-fonts;
 		}
 	}
 }
@@ -78,15 +78,16 @@
 	min-height: 550px;
 	background-color: #f7f9fa;
 	border: none;
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15);
 	&--title {
 		font-weight: $semi-bold;
 		color: $color-black-light;
 		margin-bottom: 0;
+		font-family: $inter-font;
 	}
 	&--text,
 	&--built-with--text {
-		color: #888;
+		color: #6a737d;
 		font-size: 0.9rem;
 	}
 
