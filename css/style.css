@@ -24,6 +24,9 @@ body {
 .font-roboto {
   font-family: "Roboto", sans-serif; }
 
+.font-color-888 {
+  color: #888; }
+
 .section-padding {
   padding-top: 70px;
   padding-bottom: 70px; }
@@ -157,7 +160,8 @@ body {
 
 .about-subsection-description {
   font-weight: 400;
-  font-size: 1.45rem; }
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif; }
 
 .project-card {
   min-height: 550px;
