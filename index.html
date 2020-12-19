@@ -27,7 +27,7 @@
 		/>
 		<link rel="manifest" href="./favicon/site.webmanifest" />
 		<link rel="shortcut icon" href="./favicon/favicon.ico" />
-		<link rel="canonical" href="https://niloy.io"></link>
+		<link rel="canonical" href="https://niloy.io" />
 		<meta name="msapplication-TileColor" content="#da532c" />
 		<meta
 			name="msapplication-config"
@@ -42,8 +42,9 @@
 			src="https://kit.fontawesome.com/0f4f4bd934.js"
 			crossorigin="anonymous"
 		></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
 			rel="stylesheet"
 		/>
 		<link
@@ -64,7 +65,7 @@
 		<div class="spinner-overlay">
 			<div
 				class="spinner-grow"
-				style="width: 5rem; height: 5rem; color: #fa5b5b;"
+				style="width: 5rem; height: 5rem; color: #fa5b5b"
 				role="status"
 			>
 				<span class="sr-only">Loading...</span>
@@ -113,6 +114,13 @@
 										href="#Projects"
 										class="nav-link navbar__semi-bold"
 										>Projects</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#Blogs"
+										class="nav-link navbar__semi-bold"
+										>Blogs</a
 									>
 								</li>
 								<li class="nav-item">
@@ -420,7 +428,7 @@
 										</div>
 
 										<div
-											class="card-body text-left project-card--body mt-3"
+											class="card-body text-left project-card--body mt-3 font-roboto"
 										>
 											<div class="row align-items-center">
 												<div class="col-8">
@@ -511,7 +519,7 @@
 										</div>
 
 										<div
-											class="card-body text-left project-card--body mt-3"
+											class="card-body text-left project-card--body mt-3 font-roboto"
 										>
 											<div class="row align-items-center">
 												<div class="col-8">
@@ -602,7 +610,7 @@
 										</div>
 
 										<div
-											class="card-body text-left project-card--body mt-3"
+											class="card-body text-left project-card--body mt-3 font-roboto"
 										>
 											<div class="row align-items-center">
 												<div class="col-8">
@@ -680,7 +688,7 @@
 										</div>
 
 										<div
-											class="card-body text-left project-card--body mt-3"
+											class="card-body text-left project-card--body mt-3 font-roboto"
 										>
 											<div class="row align-items-center">
 												<div class="col-8">
@@ -734,7 +742,73 @@
 						</div>
 					</div>
 				</section>
-				<section class="text-center bg-light" id="Contact">
+				<section class="text-center bg-light" id="Blogs">
+					<div class="container section-padding project min-vh-100">
+						<div class="title-border">
+							<h1>Blogs</h1>
+						</div>
+						<div class="section-padding">
+							<div class="row justify-content-center">
+								<div class="col-sm-12 col-md-6 mt-3">
+									<div class="card project-card">
+										<div class="text-center">
+											<img
+												class="card-img-top"
+												src="./img/camis/CamisLogo.png"
+												alt="Camis Logo image"
+											/>
+										</div>
+
+										<div
+											class="card-body text-left project-card--body mt-3 font-roboto"
+										>
+											<div class="row align-items-center">
+												<div class="col-12">
+													<h5
+														class="card-title project-card--title"
+													>
+														Camis Inc. - Work Term
+														Report Fall 2020
+													</h5>
+												</div>
+												<div
+													class="col-4 project-card--text mt-1"
+												>
+													<small>
+														Dec 19, 2020
+													</small>
+												</div>
+
+												<p
+													class="card-text project-card--text col-11 text-justify my-1 font-roboto"
+												>
+													My first Co-op Work Term
+													Report for Fall 2020 (4
+													months) at Camis Inc., where
+													I had the privilege to work
+													as a Software Developer with
+													an amazing team, to develop
+													new features and maintain
+													reservation software for
+													parks and campsites across
+													North America.
+												</p>
+											</div>
+											<div class="my-3 text-center">
+												<a
+													href="./blogs/workterm1.html"
+													class="btn btn-dark"
+													>Read More</a
+												>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="text-center" id="Contact">
 					<div class="container section-padding contact">
 						<div class="title-border">
 							<h1>Contact</h1>
@@ -783,7 +857,7 @@
 							>Powered by
 							<a
 								href="https://www.netlify.com/"
-								style="color: #31b5ba;"
+								style="color: #31b5ba"
 								>netlify</a
 							></span
 						>

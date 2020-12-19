@@ -21,6 +21,9 @@ body {
 .navbar__semi-bold {
   font-weight: 600; }
 
+.font-roboto {
+  font-family: "Roboto", sans-serif; }
+
 .section-padding {
   padding-top: 70px;
   padding-bottom: 70px; }
