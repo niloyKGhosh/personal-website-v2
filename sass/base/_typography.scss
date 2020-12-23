@@ -8,7 +8,7 @@ body {
 }
 
 .navbar__xs-font {
-	font-size: 12px;
+	font-size: 16px;
 }
 
 .font-color-888 {
@@ -17,6 +17,10 @@ body {
 
 .system-fonts {
 	font-family: $system-fonts;
+}
+
+.font-inter {
+	font-family: $inter-font;
 }
 
 .font-color-6a737d {

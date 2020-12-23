@@ -3,6 +3,11 @@
 	padding-bottom: $section-padding-bottom;
 }
 
+.section-margin {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 .title-border h1 {
 	position: relative;
 	&::after {
