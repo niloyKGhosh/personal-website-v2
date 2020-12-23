@@ -60,6 +60,27 @@
 	}
 }
 
+.hashtag {
+	color: $color-primary;
+}
+
+.dev-productivity {
+	width: 240px;
+	height: 320px;
+}
+.dev-activity {
+	width: 320px;
+	height: 320px;
+}
+.remote-team {
+	width: 350px;
+	height: 250px;
+}
+
+.work-together {
+	width: 250px;
+	height: 250px;
+}
 /***** Media queries ****/
 
 @media (max-width: 767.98px) {
@@ -96,5 +117,22 @@
 			font-size: 17px;
 			text-align: justify;
 		}
+	}
+	.dev-productivity {
+		width: 120px;
+		height: 160px;
+	}
+	.dev-activity {
+		width: 160px;
+		height: 160px;
+	}
+	.remote-team {
+		width: 175px;
+		height: 125px;
+	}
+
+	.work-together {
+		width: 125px;
+		height: 125px;
 	}
 }
