@@ -355,6 +355,30 @@ body {
   width: 250px;
   height: 250px; }
 
+.ts-logo {
+  height: 64px;
+  width: 64px; }
+
+.angular-logo {
+  height: 128px;
+  width: 128px; }
+
+.rxjs-logo {
+  height: 64px;
+  width: 64px; }
+
+.unit-test-logo {
+  width: 100px;
+  height: 100px; }
+
+.jest-logo {
+  height: 128px;
+  width: 128px; }
+
+.c-sharp-logo {
+  height: 90px;
+  width: 90px; }
+
 /***** Media queries ****/
 @media (max-width: 767.98px) {
   .co-op__heading {
@@ -391,4 +415,24 @@ body {
     height: 125px; }
   .work-together {
     width: 125px;
-    height: 125px; } }
+    height: 125px; }
+  .ts-logo {
+    height: 32px;
+    width: 32px; }
+  .angular-logo {
+    height: 64px;
+    width: 64px; }
+  .rxjs-logo {
+    height: 32px;
+    width: 32px; }
+  .logo-text {
+    font-size: 11px; }
+  .unit-test-logo {
+    width: 50px;
+    height: 50px; }
+  .jest-logo {
+    height: 70px;
+    width: 70px; }
+  .c-sharp-logo {
+    height: 45px;
+    width: 45px; } }
