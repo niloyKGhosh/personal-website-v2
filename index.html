@@ -27,7 +27,7 @@
 		/>
 		<link rel="manifest" href="./favicon/site.webmanifest" />
 		<link rel="shortcut icon" href="./favicon/favicon.ico" />
-		<link rel="canonical" href="https://niloy.io"></link>
+		<link rel="canonical" href="https://niloy.io" />
 		<meta name="msapplication-TileColor" content="#da532c" />
 		<meta
 			name="msapplication-config"
@@ -42,8 +42,9 @@
 			src="https://kit.fontawesome.com/0f4f4bd934.js"
 			crossorigin="anonymous"
 		></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap"
 			rel="stylesheet"
 		/>
 		<link
@@ -64,7 +65,7 @@
 		<div class="spinner-overlay">
 			<div
 				class="spinner-grow"
-				style="width: 5rem; height: 5rem; color: #fa5b5b;"
+				style="width: 5rem; height: 5rem; color: #fa5b5b"
 				role="status"
 			>
 				<span class="sr-only">Loading...</span>
@@ -113,6 +114,13 @@
 										href="#Projects"
 										class="nav-link navbar__semi-bold"
 										>Projects</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#Blogs"
+										class="nav-link navbar__semi-bold"
+										>Blogs</a
 									>
 								</li>
 								<li class="nav-item">
@@ -305,14 +313,16 @@
 										Languages:
 									</h5>
 									<p class="about-subsection-description">
-										C, JavaScript, Java, HTML5, CSS3, Python
+										C, JavaScript, TypeScript, Java, HTML5,
+										CSS3, Python
 									</p>
 									<h5 class="about-subsection-head mt-3">
 										Frameworks & Libraries:
 									</h5>
 									<p class="about-subsection-description">
-										Bootstrap v4, jQuery, Node.js,
-										Express.js, MongoDB, Mongoose, JUnit
+										Bootstrap v4, Sass, Angular 8+, jQuery,
+										Node.js, Express.js, Jest, RxJs,
+										MongoDB, Mongoose
 									</p>
 								</div>
 							</div>
@@ -328,14 +338,45 @@
 										Development Tools:
 									</h5>
 									<p class="about-subsection-description">
-										Visual Studio Code, Sublime Text,
-										IntelliJ, Postman, Robo3T, Figma
+										Visual Studio Code, GitKraken, Jira,
+										IntelliJ, Postman, Figma, MongoDB
+										Compass
 									</p>
 									<h5 class="about-subsection-head mt-3">
 										Version Control:
 									</h5>
 									<p class="about-subsection-description">
-										Git, Github
+										Git, Github, Bitbucket
+									</p>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-4 mb-5">
+								<div class="about-profile text-left">
+									<h3 class="about-subsection-h5">
+										<span
+											><i class="fas fa-briefcase"></i
+											>Experience</span
+										>
+									</h3>
+									<h5 class="about-subsection-head mt-3">
+										Software Developer, Camis Inc.
+									</h5>
+									<p
+										class="about-subsection-description mb-4"
+									>
+										Rapidly developed new features and
+										maintained reservation software with a
+										team of 6 using the Agile(Scrum)
+										approach
+									</p>
+									<h5 class="about-subsection-head mt-3">
+										Online Instructor, Mastermind Science
+										Society:
+									</h5>
+									<p class="about-subsection-description">
+										Responsible for teaching C to a class of
+										60 students online.
 									</p>
 								</div>
 							</div>
@@ -354,24 +395,6 @@
 									<p class="about-subsection-description">
 										Awarded for having an admission average
 										of 90% ($7500)
-									</p>
-								</div>
-							</div>
-							<div class="col-12 col-md-4 mb-5">
-								<div class="about-profile text-left">
-									<h3 class="about-subsection-h5">
-										<span
-											><i class="fas fa-briefcase"></i
-											>Experience</span
-										>
-									</h3>
-									<h5 class="about-subsection-head mt-3">
-										Online Instructor, Mastermind Science
-										Society:
-									</h5>
-									<p class="about-subsection-description">
-										Responsible for teaching C to a class of
-										60 students online.
 									</p>
 								</div>
 							</div>
@@ -670,7 +693,7 @@
 								</div>
 
 								<div class="col-sm-12 col-md-6 mt-3">
-									<div class="card project-card">
+									<div class="card project-card box-shadow">
 										<div class="text-center">
 											<img
 												class="card-img-top"
@@ -734,7 +757,76 @@
 						</div>
 					</div>
 				</section>
-				<section class="text-center bg-light" id="Contact">
+				<section class="text-center bg-light" id="Blogs">
+					<div class="container section-padding project min-vh-100">
+						<div class="title-border">
+							<h1>Blogs</h1>
+						</div>
+						<div class="section-padding">
+							<div class="row justify-content-center">
+								<div class="col-sm-12 col-md-6 mt-3">
+									<div class="card box-shadow">
+										<div class="text-center">
+											<img
+												class="card-img-top"
+												src="./img/camis/CamisLogo.png"
+												alt="Camis Logo image"
+											/>
+										</div>
+
+										<div
+											class="card-body text-left project-card--body"
+										>
+											<div
+												class="row align-items-center px-2"
+											>
+												<div class="col-12">
+													<h1
+														class="card-title project-card--title my-4"
+													>
+														Camis Inc. - Work Term
+														Report Fall 2020
+													</h1>
+												</div>
+												<div
+													class="col-12 project-card--text mt-1"
+												>
+													<small>
+														Dec 19, 2020 &middot; By
+														Niloy Kumar Ghosh
+													</small>
+												</div>
+
+												<p
+													class="card-text col-12 mt-3 mb-3 font-color-6a737d system-fonts"
+												>
+													My first Co-op Work Term
+													Report for Fall 2020 (4
+													months) at Camis Inc., where
+													I had the privilege to work
+													as a Software Developer with
+													an amazing team, to develop
+													new features and maintain
+													reservation software for
+													parks and campsites across
+													North America.
+												</p>
+												<div class="my-2 col-12">
+													<a
+														href="./blogs/workterm1.html"
+														class="btn btn-dark"
+														>Read More</a
+													>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="text-center" id="Contact">
 					<div class="container section-padding contact">
 						<div class="title-border">
 							<h1>Contact</h1>
@@ -783,7 +875,7 @@
 							>Powered by
 							<a
 								href="https://www.netlify.com/"
-								style="color: #31b5ba;"
+								style="color: #31b5ba"
 								>netlify</a
 							></span
 						>

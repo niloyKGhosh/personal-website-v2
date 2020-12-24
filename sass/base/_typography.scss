@@ -6,3 +6,23 @@ body {
 .navbar__semi-bold {
 	font-weight: $semi-bold;
 }
+
+.navbar__xs-font {
+	font-size: 16px;
+}
+
+.font-color-888 {
+	color: $color-grey;
+}
+
+.system-fonts {
+	font-family: $system-fonts;
+}
+
+.font-inter {
+	font-family: $inter-font;
+}
+
+.font-color-6a737d {
+	color: #6a737d;
+}

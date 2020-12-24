@@ -60,7 +60,7 @@ $(function () {
 		const links = $(".navbar-nav a");
 		links.each(function () {
 			const heightFromTop = $(this.hash).offset().top;
-			// console.log(heightFromTop, scrollLocation);
+
 			if (heightFromTop - 110 < scrollLocation) {
 				$(this).parent().siblings().removeClass("active");
 				$(this).parent().addClass("active");
